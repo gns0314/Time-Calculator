@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시간 계산기</title>
+    <script type="module" src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>시간 계산기</h1>
+    <div id="times">
+        <div class="time">
+            <input type="number" class="hour" id="hour1" maxlength="60">
+            <label for="hour1">시간</label>
+            <input type="number" class="min" id="min1" maxlength="60">
+            <label for="min1">분</label>
+            <input type="number" class="sec" id="sec1" maxlength="60">
+            <label for="sec1">초</label>
+        </div>
+    </div>
+    <button id="add-time">+</button>
+    <button id="plus">계산</button>
+    <div id="result"></div>
+</body>
+</html>
